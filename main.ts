@@ -11,8 +11,8 @@ input.onGesture(Gesture.Shake, function () {
     radio.sendNumber(6)
 })
 input.onGesture(Gesture.LogoUp, function () {
-    basic.showNumber(4)
-    radio.sendNumber(4)
+    basic.showNumber(5)
+    radio.sendNumber(5)
 })
 input.onButtonPressed(Button.B, function () {
     basic.showNumber(1)
@@ -23,7 +23,7 @@ input.onGesture(Gesture.TiltLeft, function () {
     radio.sendNumber(3)
 })
 input.onGesture(Gesture.LogoDown, function () {
-    basic.showNumber(5)
-    radio.sendNumber(5)
+    basic.showNumber(4)
+    radio.sendNumber(4)
 })
 radio.setGroup(1)
